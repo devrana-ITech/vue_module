@@ -87,7 +87,6 @@ const deleterole= (id)=>{
                             </tbody>
                         </table>
                     </div>
-
                 </div>
             </div>
         </div>

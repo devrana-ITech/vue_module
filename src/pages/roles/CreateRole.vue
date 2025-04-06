@@ -26,7 +26,6 @@
                 </div>
             </div>
         </div>
-     
     </div>
 
 
@@ -47,7 +46,6 @@ const formSubmit=()=>{
     axios.post(`http://localhost/Laravel/project/public/api/roles`,formdata)
   .then(res=>{
     console.log(res);
-
     router.push({ path: '/roles' })
   })
   .catch(err =>{
@@ -55,9 +53,6 @@ const formSubmit=()=>{
   })
     
 }
-
-
-
 
 
 </script>
